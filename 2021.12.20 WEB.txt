@@ -1,0 +1,43 @@
+2021.12.20 web
+
+internet : 전세계를 연결하는 통신망.
+web : internet 의 서비스 중 하나이며 정보공유를 할 수 있는 공간.
+
+web client : web에 접속하는 접속자.(클릭한 페이지를 요청하는 pc)
+web server : web을 제공해준다.(클릭된 페이지를 제공하는 pc)
+*** web client - 요청 , web server - 제공(응답) ***
+
+protocol : 컴퓨터들간의 원활한 통신을 위해 지키기로 약속한 규약.
+ex ) http(하이퍼텍스트를 기반으로 데이터 전송하는 프로토콜)
+
+url : 인터넷 주소
+url 구조 : 프로토콜 + 정보자원을 가진 컴퓨터의 위치 + 자원이 있는 폴도 + 자원 이름
+
+홈페이지 구성 요소 : HTML(뼈대), CSS(디자인), JS(자바스크립트)(기능)
+
+HTML : Hyper Text MarkUp Language - 웹페이지에 정보를 담아 표시하기 위한 마크업 언어.
+
+Hyper Text : 현재 문서에서 다른 문서로 즉시 접근할 수 있는 텍스트.
+문서를 초월한다!
+MarkUp : 어딘가에 표시를 해두는 것.(태그를 통해서 표시한다!!!)
+ex) <p>Hyper Text MarkUp Language</p> ---->>> 요소 
+구성
+ex) <p>(시작태그) + ~~~~~~(content - 내용) + </p>(끝태그) -> 태그!
+태그의 속성
+ex) <p align = "center"> hello world! </p> 
+align -> 속성(attribute) : 해당 요소에 추가적인 내용을 담고 싶을 때 사용.
+"center" -> 값(value)
+
+HTML 구성요소
+<!DOCTYPE html> = 문서 형식 정의
+	<head> = HTML 문서의 머릿 글
+	   <meta> = HTML문서의 정보정의
+	      <title>Test홈페이지</title> = HTML 문서의 제목
+	</head>
+	<body>
+		환영합니다  = HTML문서 내용(텍스트, 이미지, 내용 등)
+	</body>
+</html>
+
+
+
